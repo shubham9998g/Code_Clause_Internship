@@ -1,0 +1,23 @@
+---Dataset Overview
+The Iris dataset contains 150 samples across three species: Setosa, Versicolor, and Virginica.
+Each sample has four numeric features: sepal length, sepal width, petal length, and petal width.
+
+---Key Feature Insights
+Petal length and petal width show strong separation between species:
+Setosa is clearly separated from the other two species across these features.
+Versicolor and Virginica show some overlap, but are still distinguishable.
+Sepal length and width provide less distinct separation but still offer useful information, especially for Setosa.
+
+---Distribution Observations
+Histograms with KDE curves reveal:
+Setosa values are tightly clustered.
+Virginica tends to have the highest petal measurements.
+
+---Boxplots highlight:
+Petal length and width have distinct median and range values across species.
+Setosa has a higher and more stable sepal width compared to others.
+
+---Correlation Analysis
+Petal length and petal width are highly correlated (r ≈ 0.96).
+Sepal length shows moderate positive correlation with petal features.
+Sepal width is weakly or negatively correlated with other features.
